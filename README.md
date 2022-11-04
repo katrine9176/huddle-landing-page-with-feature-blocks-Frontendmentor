@@ -23,13 +23,13 @@ Users should be able to:
 
 ### Screenshot
 
-![Mobile view](./screenshots/Screenshot%202022-11-04%20at%2020-31-16%20Frontend%20Mentor%20Huddle%20landing%20page%20with%20alternating%20feature%20blocks.png)![Desktop view](./screenshots/Screenshot%202022-11-04%20at%2020-27-38%20Frontend%20Mentor%20Huddle%20landing%20page%20with%20alternating%20feature%20blocks.png)
+![Desktop view](./screenshots/Screenshot%202022-11-04%20at%2020-27-38%20Frontend%20Mentor%20Huddle%20landing%20page%20with%20alternating%20feature%20blocks.png)
 
 
 ### Links
 
-- Solution URL: [Solution URL](https://your-solution-url.com)
-- Live Site URL: [Live site URL](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://github.com/katrine9176/huddle-landing-page-with-feature-blocks-Frontendmentor)
+- Live Site URL: [Live site URL](https://katrine9176.github.io/huddle-landing-page-with-feature-blocks-Frontendmentor/git )
 
 
 ### Built with
