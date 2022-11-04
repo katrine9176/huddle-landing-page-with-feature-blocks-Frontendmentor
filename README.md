@@ -8,15 +8,9 @@ This is a solution to the [Huddle landing page with alternating feature blocks c
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -29,8 +23,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Mobile view](./screenshots/Screenshot%202022-11-04%20at%2020-31-16%20Frontend%20Mentor%20Huddle%20landing%20page%20with%20alternating%20feature%20blocks.png)
-![Desktop view](./screenshots/Screenshot%202022-11-04%20at%2020-27-38%20Frontend%20Mentor%20Huddle%20landing%20page%20with%20alternating%20feature%20blocks.png)
+![Mobile view](./screenshots/Screenshot%202022-11-04%20at%2020-31-16%20Frontend%20Mentor%20Huddle%20landing%20page%20with%20alternating%20feature%20blocks.png)![Desktop view](./screenshots/Screenshot%202022-11-04%20at%2020-27-38%20Frontend%20Mentor%20Huddle%20landing%20page%20with%20alternating%20feature%20blocks.png)
 
 
 ### Links
