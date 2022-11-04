@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL](https://github.com/katrine9176/huddle-landing-page-with-feature-blocks-Frontendmentor)
-- Live Site URL: [Live site URL](https://katrine9176.github.io/huddle-landing-page-with-feature-blocks-Frontendmentor/git )
+- Live Site URL: [Live site URL](https://katrine9176.github.io/huddle-landing-page-with-feature-blocks-Frontendmentor/)
 
 
 ### Built with
