@@ -1,0 +1,422 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.8rem;
+  position: relative;
+}
+
+.container {
+  max-width: 1400px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(193deg, 100%, 96%);
+  background-image: url("../images/bg-hero-mobile.svg");
+}
+.header .nav__logo {
+  height: 25px;
+  margin: 2em 1.5em;
+}
+.header .nav__btn {
+  margin: 2.5em 1.5em;
+  position: absolute;
+  right: 0;
+  width: 120px;
+  height: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  border: none;
+  background-color: hsl(255deg, 100%, 100%);
+  border-radius: 25px;
+  box-shadow: 0 0 3px hsl(192deg, 100%, 9%);
+  transition: all 0.3s;
+}
+.header .nav__btn:hover {
+  color: hsl(208deg, 11%, 55%);
+  cursor: pointer;
+}
+.header__text-heading {
+  margin: 1em;
+  text-align: center;
+  font-size: 2.8rem;
+  font-family: "Poppins", sans-serif;
+}
+.header__text-paragraph {
+  margin: 1.5em;
+  text-align: center;
+}
+.header__text-btn {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 40px;
+  background-color: hsl(322deg, 100%, 66%);
+  font-family: "Open Sans", sans-serif;
+  color: hsl(255deg, 100%, 100%);
+  font-weight: bold;
+  border: none;
+  border-radius: 25px;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+}
+.header__text-btn:hover {
+  background-color: hsl(322deg, 96%, 71%);
+  cursor: pointer;
+}
+.header__mockup {
+  height: 280px;
+  margin: 3em auto;
+  display: flex;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsl(255deg, 100%, 100%);
+}
+.main .section {
+  display: flex;
+  flex-direction: column;
+  margin: 3em;
+  width: 350px;
+  border-radius: 15px;
+  background-color: hsl(255deg, 100%, 100%);
+  box-shadow: 0 0 10px hsl(192deg, 100%, 9%);
+}
+.main .section--users {
+  margin-bottom: 10em;
+}
+.main .section__svg {
+  margin: 1em auto;
+  width: 300px;
+}
+.main .section__text-heading {
+  text-align: center;
+  margin: 0.7em;
+  margin-bottom: 0;
+  font-family: "Poppins", sans-serif;
+}
+.main .section__text-paragraph {
+  text-align: center;
+  margin: 1em;
+  margin-bottom: 2em;
+  color: hsl(208deg, 11%, 55%);
+}
+
+.aside {
+  position: absolute;
+  bottom: 720px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 380px;
+  background-color: hsl(255deg, 100%, 100%);
+  border-radius: 15px;
+  box-shadow: 0 0 10px hsl(192deg, 100%, 9%);
+}
+.aside__heading {
+  margin-top: 1em;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+.aside__btn {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 2em auto;
+  width: 200px;
+  height: 40px;
+  background-color: hsl(322deg, 100%, 66%);
+  font-family: "Open Sans", sans-serif;
+  color: hsl(255deg, 100%, 100%);
+  font-weight: bold;
+  border: none;
+  border-radius: 25px;
+  transition: all 0.3s;
+}
+.aside__btn:hover {
+  background-color: hsl(322deg, 96%, 71%);
+  cursor: pointer;
+}
+
+.footer {
+  background-color: hsl(192deg, 100%, 9%);
+}
+.footer__svg {
+  margin: 1em;
+  margin-top: 10em;
+  width: 200px;
+}
+.footer__box {
+  margin: 1em;
+  display: flex;
+}
+.footer__box-icon {
+  width: 18px;
+  height: 18px;
+}
+.footer__box-text {
+  margin-top: -0.2em;
+  margin-left: 0.8em;
+  color: hsl(193deg, 100%, 96%);
+}
+.footer__paragraph a {
+  font-size: 2rem;
+  margin: 0.5em 1em;
+  color: hsl(193deg, 100%, 96%);
+  text-decoration: none;
+}
+.footer__paragraph a:hover {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+.footer__paragraph--about-us {
+  margin-top: 2.5em;
+}
+.footer__social {
+  display: flex;
+  justify-content: center;
+}
+.footer__social .fa-brands {
+  margin: 1em;
+  padding: 0.7em;
+  color: hsl(193deg, 100%, 96%);
+  border-radius: 50%;
+  border: 1px solid hsl(193deg, 100%, 96%);
+  transition: all 0.3s;
+}
+.footer__social .fa-brands:hover {
+  color: hsl(322deg, 100%, 66%);
+  border: 1px solid hsl(322deg, 100%, 66%);
+}
+.footer__social .fa-facebook-f {
+  padding: 0.7em 0.85em;
+}
+.footer__copyright {
+  margin: 1em;
+  text-align: center;
+  font-size: 1.5rem;
+  color: hsl(193deg, 100%, 96%);
+}
+.footer .attribution {
+  font-size: 1.1rem;
+  text-align: center;
+  color: hsl(208deg, 11%, 55%);
+}
+.footer .attribution a {
+  text-decoration: none;
+  color: hsl(228deg, 45%, 44%);
+}
+
+@media (max-width: 360px) {
+  .header .nav__logo {
+    margin-left: 0.7em;
+  }
+  .header__mockup {
+    height: 200px;
+  }
+  .main .section {
+    width: 300px;
+  }
+  .main .section--users {
+    margin-bottom: 5em;
+  }
+  .main .section__svg {
+    width: 250px;
+  }
+  .aside {
+    bottom: 750px;
+    width: 300px;
+  }
+}
+@media (min-width: 576px) {
+  .header .nav__logo {
+    margin: 2em;
+  }
+  .header .nav__btn {
+    right: 20px;
+    width: 150px;
+    height: 35px;
+    font-size: 1.4rem;
+  }
+  .header__text-heading {
+    font-size: 3.5rem;
+  }
+  .header__text-paragraph {
+    font-size: 1.8rem;
+  }
+  .header__text-btn {
+    font-size: 1.4rem;
+  }
+  .header__mockup {
+    height: 300px;
+  }
+}
+@media (min-width: 768px) {
+  .header {
+    margin-bottom: 6em;
+  }
+  .header .nav__logo {
+    margin: 3em;
+  }
+  .header .nav__btn {
+    top: 17px;
+    right: 30px;
+  }
+  .header__text-heading {
+    font-size: 4rem;
+  }
+  .header__text-paragraph {
+    font-size: 2rem;
+  }
+  .header__mockup {
+    height: 400px;
+  }
+  .header__btn {
+    width: 230px;
+    height: 40px;
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 992px) {
+  .container-header {
+    display: flex;
+    flex-direction: row;
+  }
+  .header__mockup {
+    margin-top: 1em;
+    margin-right: 1em;
+  }
+  .header__text {
+    width: 55vw;
+    text-align: left;
+    margin-top: 0;
+    margin-right: 2em;
+  }
+  .header__text-heading, .header__text-paragraph {
+    text-align: left;
+  }
+  .main .section {
+    display: flex;
+    flex-direction: row;
+    width: 950px;
+    height: 450px;
+    margin: 0.7em;
+    margin-bottom: 2em;
+  }
+  .main .section--grow-together {
+    margin-top: 8em;
+  }
+  .main .section--conversations {
+    flex-direction: row-reverse;
+  }
+  .main .section--users {
+    margin-bottom: 8em;
+  }
+  .main .section__text {
+    margin: 0.5em;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .main .section__text-heading, .main .section__text-paragraph {
+    text-align: left;
+  }
+  .main .section__text-heading--conver, .main .section__text-paragraph--conver {
+    margin-left: 80px;
+  }
+  .main .section__svg {
+    width: 40%;
+    height: 80%;
+  }
+  .aside {
+    position: absolute;
+    bottom: 330px;
+    z-index: 10;
+    width: 700px;
+    height: 200px;
+  }
+  .aside__heading {
+    margin-top: 1.5em;
+  }
+  .footer {
+    display: flex;
+    flex-direction: row;
+  }
+  .footer__flex {
+    margin-top: 0;
+  }
+  .footer__svg {
+    margin-top: 8em;
+  }
+  .footer__social {
+    margin-top: 10em;
+    margin-right: 3em;
+  }
+  .footer__social i {
+    height: 42.95px;
+  }
+  .footer__paragraph--about-us, .footer__paragraph--career {
+    margin-top: 10em;
+  }
+  .footer__paragraph--faq {
+    margin-bottom: 5em;
+  }
+  .footer__copyright {
+    position: absolute;
+    bottom: 20px;
+    right: 2em;
+  }
+  .footer .attribution {
+    position: absolute;
+    bottom: 10px;
+    right: 5.5em;
+  }
+}
+@media (min-width: 1200px) {
+  .container.container-header {
+    margin: 3em auto;
+  }
+  .header__mockup {
+    margin-right: 3em;
+    margin-left: 0;
+  }
+  .header__text {
+    margin-left: 1em;
+  }
+}
+@media (min-width: 1400px) {
+  .header__mockup {
+    height: 500px;
+  }
+  .main .section {
+    width: 1200px;
+  }
+  .main .section__svg {
+    width: 35%;
+  }
+  .main .section--users {
+    margin-bottom: 13em;
+  }
+  .aside {
+    bottom: 300px;
+  }
+  .footer__flex--info {
+    width: 40%;
+    margin-left: 2em;
+  }
+}/*# sourceMappingURL=style.css.map */
